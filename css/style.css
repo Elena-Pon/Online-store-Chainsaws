@@ -1,0 +1,198 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.header {
+	background-color: #ffcf07;
+	padding: 25px 0;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+}
+
+.main-nav {
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+}
+.main-nav.active {
+	border-bottom: 2px solid black;
+}
+
+.main-nav:hover {
+	border-bottom: 2px solid black;
+}
+
+.breadcrumbs {
+	background-color: #ededed;
+	padding: 10px 0;
+}
+.breadcrumbs a {
+	color: #666666;
+}
+
+.separator {
+	color: #666666;
+}
+
+.content .container {
+	display: flex;
+}
+
+.list-left {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	flex-shrink: 0;
+	flex-basis: 250px;
+	margin-left: -10px;
+	padding-right: 30px;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: black;
+	padding: 10px 10px;
+}
+
+.nav-item.active {
+	background-color: #ffcf07;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.nav-item:hover {
+	background-color: #ffcf07;
+	border-radius: 10px;
+}
+
+.list-right {
+	flex-grow: 1;
+
+}
+
+.list-title {
+	margin-top: 30px;
+}
+
+.list-product {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+}
+
+img {
+	width: 100%;
+}
+
+.product {
+	width: 33.333%;
+	padding: 20px;
+
+}
+.product-holder{
+	background-color: #ededed;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+	margin: -10px;
+	position: relative;
+}
+
+.name {
+	font-size: 14px;
+}
+
+.price {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.list-item {
+	font-size: 14px;
+	text-decoration: none;
+	background-color: #ffcf07;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.sticker {
+	display: block;
+	position: absolute;
+	border-radius: 5px;
+	top: -10px;
+	right: -10px;
+	margin: 0;
+	color: white;
+	padding: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.sticker-new {
+	background-color: green;
+}
+
+.sticker-sale {
+	background-color: red;
+}
+
+.sticker-hit {
+	background-color: #fda605;
+}
+
+.callback {
+	position: fixed;
+	bottom: -70px;
+	right: 10px;
+	background-color: black;
+	border: 3px solid #fda605;
+	text-align: center;
+	border-radius: 10px;
+	width: 225px;
+	height: 120px;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.callback:hover {
+	bottom: 0;
+	transition: 0.5s;
+}
+
+.call {
+	color: white;
+}
+
+.phone {
+	width: 50px;
+	padding-top: 20px;
+}
+
+
